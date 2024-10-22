@@ -34,7 +34,7 @@ export default function Home() {
 				</section>
 
 				<section className="flex flex-col items-center justify-center gap-8 p-6">
-					<h2 className="text-center font-bold text-2xl text-black capitalize">
+					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize">
 						Explore nossas categorias
 					</h2>
 
