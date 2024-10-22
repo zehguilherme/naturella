@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import { Header } from "./components/Header";
+import { Category } from "./components/Category";
+import vases from "./img/vases.png";
 
 export default function Home() {
 	return (
@@ -29,6 +31,30 @@ export default function Home() {
 							Quero decorar minha casa
 						</Link>
 					</div>
+				</section>
+
+				<section className="flex flex-col items-center justify-center gap-8 p-6">
+					<h2 className="text-center font-bold text-2xl text-black capitalize">
+						Explore nossas categorias
+					</h2>
+
+					<Category
+						imageSrc={vases}
+						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
+						categoryName="Vasos"
+					/>
+
+					<Category
+						imageSrc={vases}
+						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
+						categoryName="Vasos"
+					/>
+
+					<Category
+						imageSrc={vases}
+						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
+						categoryName="Vasos"
+					/>
 				</section>
 			</main>
 		</>
