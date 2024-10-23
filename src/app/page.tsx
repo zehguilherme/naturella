@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Header } from "./components/Header";
 import { Category } from "./components/Category";
 import { Product } from "./components/Product";
+import { Footer } from "./components/Footer";
 
 import vases from "./img/vases.png";
 import parts from "./img/parts.png";
@@ -96,6 +97,8 @@ export default function Home() {
 					</div>
 				</section>
 			</main>
+
+			<Footer />
 		</>
 	);
 }
