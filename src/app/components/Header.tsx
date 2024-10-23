@@ -14,7 +14,7 @@ export function Header() {
 
 	return (
 		<header className="bg-green">
-			<div className="flex justify-between items-center px-6">
+			<div className="flex items-center justify-between px-6">
 				<Link href="/">
 					<Logo />
 				</Link>
@@ -35,29 +35,29 @@ export function Header() {
 			{menuIsOpen && (
 				<nav>
 					<ul className="flex flex-col items-center justify-center">
-						<li className="w-full flex justify-center items-center">
+						<li className="flex w-full items-center justify-center">
 							<Link
 								href="/"
-								className="text-white w-full flex justify-center items-center py-3 font-medium text-sm"
+								className="flex w-full items-center justify-center py-3 font-medium text-sm text-white"
 							>
 								Home
 							</Link>
 						</li>
 
-						<li className="w-full flex justify-center items-center">
+						<li className="flex w-full items-center justify-center">
 							<Link
 								href="/sobre"
-								className="text-white w-full flex justify-center items-center py-3 font-medium text-sm"
+								className="flex w-full items-center justify-center py-3 font-medium text-sm text-white"
 							>
 								Sobre
 							</Link>
 						</li>
 
-						<li className="w-full flex justify-center items-center">
+						<li className="flex w-full items-center justify-center">
 							<Link
 								href="https://wa.me/5514998695347"
 								target="_blank"
-								className="text-white w-full flex justify-center items-center py-3 font-medium text-sm"
+								className="flex w-full items-center justify-center py-3 font-medium text-sm text-white"
 							>
 								Contato
 							</Link>
