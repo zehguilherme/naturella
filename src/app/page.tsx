@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
 import { Header } from "./components/Header";
 import { Category } from "./components/Category";
@@ -7,6 +8,11 @@ import { Footer } from "./components/Footer";
 
 import vases from "./img/vases.png";
 import parts from "./img/parts.png";
+
+export const metadata: Metadata = {
+	title: "Home - Naturella",
+	description: "Página principal da empresa.",
+};
 
 export default function Home() {
 	return (
