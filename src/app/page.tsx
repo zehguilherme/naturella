@@ -14,14 +14,14 @@ export default function Home() {
 			<Header />
 
 			<main>
-				<section className="bg-[url('./img/banner.jpg')] bg-cover p-6 flex justify-center items-center h-[calc(100vh-100px)]">
-					<div className="bg-pink px-[39px] py-[37px] flex flex-col gap-6 rounded-[10px]">
+				<section className="flex h-[calc(100vh-100px)] items-center justify-center bg-[url('./img/banner.jpg')] bg-cover p-6">
+					<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px]">
 						<div className="flex flex-col gap-[17px]">
-							<h1 className="capitalize text-green text-3xl font-bold">
+							<h1 className="font-bold text-3xl text-green capitalize">
 								Transforme seu espaço agora
 							</h1>
 
-							<p className="text-black text-base-sm font-medium">
+							<p className="font-medium text-base-sm text-black">
 								Descubra peças únicas que combinam a solidez do concreto com a
 								delicadeza do macramê, criadas para transformar qualquer
 								ambiente com personalidade e sofisticação.
@@ -30,7 +30,7 @@ export default function Home() {
 
 						<Link
 							href="#"
-							className="uppercase bg-green text-white text-sm font-bold px-10 py-[15px] text-center"
+							className="bg-green px-10 py-[15px] text-center font-bold text-sm text-white uppercase"
 						>
 							Quero decorar minha casa
 						</Link>
