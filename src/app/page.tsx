@@ -2,7 +2,10 @@ import Link from "next/link";
 
 import { Header } from "./components/Header";
 import { Category } from "./components/Category";
+import { Product } from "./components/Product";
+
 import vases from "./img/vases.png";
+import parts from "./img/parts.png";
 
 export default function Home() {
 	return (
@@ -55,6 +58,42 @@ export default function Home() {
 						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
 						categoryName="Vasos"
 					/>
+				</section>
+
+				<section className="flex flex-col items-center justify-center gap-8 p-6">
+					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize">
+						Nossos produtos
+					</h2>
+
+					<div className="flex flex-col items-center justify-center gap-4">
+						<Product
+							imageSrc={parts}
+							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
+							productName="Vaso"
+							productDescription="Lorem ipsum dolor sit amet."
+						/>
+
+						<Product
+							imageSrc={parts}
+							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
+							productName="Vaso"
+							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+						/>
+
+						<Product
+							imageSrc={parts}
+							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
+							productName="Vaso"
+							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut odio
+					commodo, maximus orci nec, finibus lacus. Morbi at sodales ligula.
+					Mauris dignissim tempus justo eu accumsan. Aliquam vel sodales magna,
+					nec rutrum enim. Cras pretium finibus arcu, a semper risus luctus at.
+					Maecenas iaculis quis arcu et condimentum. Vestibulum sit amet risus
+					vitae dui mattis tristique. Sed feugiat mattis enim ac pharetra. Etiam
+					vitae quam egestas, aliquet justo lacinia, luctus diam. Duis tempor
+					ornare eros et tempor."
+						/>
+					</div>
 				</section>
 			</main>
 		</>
