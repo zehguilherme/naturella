@@ -14,13 +14,15 @@ export function Product({
 	productDescription,
 }: ProductProps) {
 	return (
-		<article className="max-w-[345px]">
+		<article className="max-w-[345px] sm:max-w-[285px]">
 			<Image src={imageSrc} alt={imageAlt} />
 
-			<div className="flex flex-col items-start justify-center gap-2 bg-gray-gray1 p-4">
-				<h3 className="font-semibold text-gray-gray3 text-lg">{productName}</h3>
+			<div className="flex flex-col items-start justify-start gap-2 bg-gray-gray1 p-4 sm:h-[148px]">
+				<h3 className="font-semibold text-gray-gray3 text-lg sm:text-xl">
+					{productName}
+				</h3>
 
-				<p className="line-clamp-3 font-medium text-gray-gray4 text-sm">
+				<p className="line-clamp-3 font-medium text-gray-gray4 text-sm sm:text-base">
 					{productDescription}
 				</p>
 			</div>

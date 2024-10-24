@@ -71,12 +71,12 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className="flex flex-col items-center justify-center gap-8 p-6">
-					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize">
+				<section className="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-8 p-6">
+					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize sm:text-4xl">
 						Nossos produtos
 					</h2>
 
-					<div className="flex flex-col items-center justify-center gap-4">
+					<div className="flex flex-col items-center justify-center gap-4 sm:grid sm:grid-cols-2 sm:gap-8 md:grid-cols-3 lg:grid-cols-4">
 						<Product
 							imageSrc={parts}
 							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
@@ -103,6 +103,34 @@ export default function Home() {
 					vitae dui mattis tristique. Sed feugiat mattis enim ac pharetra. Etiam
 					vitae quam egestas, aliquet justo lacinia, luctus diam. Duis tempor
 					ornare eros et tempor."
+						/>
+
+						<Product
+							imageSrc={parts}
+							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
+							productName="Vaso"
+							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut odio
+					commodo, maximus orci nec, finibus lacus. Morbi at sodales ligula.
+					Mauris dignissim tempus justo eu accumsan. Aliquam vel sodales magna,
+					nec rutrum enim. Cras pretium finibus arcu, a semper risus luctus at.
+					Maecenas iaculis quis arcu et condimentum. Vestibulum sit amet risus
+					vitae dui mattis tristique. Sed feugiat mattis enim ac pharetra. Etiam
+					vitae quam egestas, aliquet justo lacinia, luctus diam. Duis tempor
+					ornare eros et tempor."
+						/>
+
+						<Product
+							imageSrc={parts}
+							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
+							productName="Vaso"
+							productDescription="Lorem ipsum dolor sit amet."
+						/>
+
+						<Product
+							imageSrc={parts}
+							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
+							productName="Vaso"
+							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 						/>
 					</div>
 				</section>
