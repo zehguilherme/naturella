@@ -45,28 +45,30 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className="flex flex-col items-center justify-center gap-8 p-6">
-					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize">
+				<section className="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-8 p-6 sm:gap-[62px] sm:px-[54px] sm:py-12">
+					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize sm:text-4xl">
 						Explore nossas categorias
 					</h2>
 
-					<Category
-						imageSrc={vases}
-						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
-						categoryName="Vasos"
-					/>
+					<div className="flex flex-col gap-5 lg:flex-row lg:gap-8">
+						<Category
+							imageSrc={vases}
+							imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
+							categoryName="Vasos"
+						/>
 
-					<Category
-						imageSrc={vases}
-						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
-						categoryName="Vasos"
-					/>
+						<Category
+							imageSrc={vases}
+							imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
+							categoryName="Vasos"
+						/>
 
-					<Category
-						imageSrc={vases}
-						imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
-						categoryName="Vasos"
-					/>
+						<Category
+							imageSrc={vases}
+							imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
+							categoryName="Vasos"
+						/>
+					</div>
 				</section>
 
 				<section className="flex flex-col items-center justify-center gap-8 p-6">
