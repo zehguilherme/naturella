@@ -21,25 +21,27 @@ export default function Home() {
 
 			<main>
 				<section className="flex h-[calc(100vh-100px)] items-center justify-center bg-[url('./img/banner.jpg')] bg-cover p-6">
-					<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px]">
-						<div className="flex flex-col gap-[17px]">
-							<h1 className="font-bold text-3xl text-green capitalize">
-								Transforme seu espaço agora
-							</h1>
+					<div className="w-full max-w-[1440px] sm:flex sm:justify-end">
+						<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px] sm:max-w-[643px] sm:gap-[46px]">
+							<div className="flex flex-col gap-[17px]">
+								<h1 className="font-bold text-3xl text-green capitalize sm:text-5xl">
+									Transforme seu espaço agora
+								</h1>
 
-							<p className="font-medium text-base-sm text-black">
-								Descubra peças únicas que combinam a solidez do concreto com a
-								delicadeza do macramê, criadas para transformar qualquer
-								ambiente com personalidade e sofisticação.
-							</p>
+								<p className="font-medium text-base-sm text-black sm:text-lg">
+									Descubra peças únicas que combinam a solidez do concreto com a
+									delicadeza do macramê, criadas para transformar qualquer
+									ambiente com personalidade e sofisticação.
+								</p>
+							</div>
+
+							<Link
+								href="#"
+								className="bg-green px-10 py-[15px] text-center font-bold text-sm text-white uppercase sm:max-w-[389px] sm:px-[72px] sm:py-[25px] sm:text-base"
+							>
+								Quero decorar minha casa
+							</Link>
 						</div>
-
-						<Link
-							href="#"
-							className="bg-green px-10 py-[15px] text-center font-bold text-sm text-white uppercase"
-						>
-							Quero decorar minha casa
-						</Link>
 					</div>
 				</section>
 
