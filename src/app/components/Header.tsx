@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
+
 import { Logo } from "../icons/Logo";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
 
 export function Header() {
 	const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -24,6 +25,11 @@ export function Header() {
 						className="p-2 sm:hidden"
 						type="button"
 						onClick={handleMenuOpeningAndClosing}
+						aria-label={`${
+							menuIsOpen
+								? "Botão contendo a letra X"
+								: "Botão com ícone de um hambúrguer"
+						}`}
 					>
 						{menuIsOpen ? (
 							<X color="white" size={32} />
@@ -34,7 +40,7 @@ export function Header() {
 				</div>
 
 				{menuIsOpen && (
-					<nav className="sm:hidden">
+					<nav className="sm:hidden" aria-label="navbar-mobile">
 						<ul className="flex flex-col items-center justify-center">
 							<li className="flex w-full items-center justify-center">
 								<Link
@@ -67,7 +73,7 @@ export function Header() {
 					</nav>
 				)}
 
-				<nav className="hidden sm:block">
+				<nav className="hidden sm:block" aria-label="navbar-desktop">
 					<ul className="sm:flex sm:flex-row sm:gap-[76px]">
 						<li className="flex w-full items-center justify-center">
 							<Link
