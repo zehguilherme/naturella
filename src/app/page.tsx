@@ -10,26 +10,8 @@ import vases from "./img/vases.png";
 import parts from "./img/parts.png";
 
 export const metadata: Metadata = {
-	title: "Home - Naturella",
-	description: "Página principal da empresa.",
-	openGraph: {
-		title: "Home - Naturella",
-		description: "Página principal da empresa.",
-		url: "https://naturellastudio.vercel.app/",
-		siteName: "Naturella",
-		images: [
-			{
-				url: "https://naturellastudio.vercel.app/openGraph.png",
-				width: 1200,
-				height: 630,
-				alt: "Naturella",
-			},
-		],
-		locale: "pt_BR",
-		type: "website",
-		countryName: "Brasil",
-		phoneNumbers: ["+55 14 99869-5347"],
-	},
+	title: "Naturella",
+	description: "Peças de Decoração Artesanais",
 };
 
 export default function Home() {
