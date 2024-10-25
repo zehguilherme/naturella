@@ -45,7 +45,7 @@ export function Header() {
 							<li className="flex w-full items-center justify-center">
 								<Link
 									href="/"
-									className="flex w-full items-center justify-center py-3 font-medium text-sm text-white"
+									className="flex w-full items-center justify-center py-3 font-medium text-sm text-white active:brightness-75"
 								>
 									Home
 								</Link>
@@ -54,7 +54,7 @@ export function Header() {
 							<li className="flex w-full items-center justify-center">
 								<Link
 									href="/sobre"
-									className="flex w-full items-center justify-center py-3 font-medium text-sm text-white"
+									className="flex w-full items-center justify-center py-3 font-medium text-sm text-white active:brightness-75"
 								>
 									Sobre
 								</Link>
@@ -64,7 +64,7 @@ export function Header() {
 								<Link
 									href="https://wa.me/5514998695347"
 									target="_blank"
-									className="flex w-full items-center justify-center py-3 font-medium text-sm text-white"
+									className="flex w-full items-center justify-center py-3 font-medium text-sm text-white active:brightness-75"
 								>
 									Contato
 								</Link>
@@ -78,7 +78,7 @@ export function Header() {
 						<li className="flex w-full items-center justify-center">
 							<Link
 								href="/"
-								className="flex w-full items-center justify-center py-3 font-medium text-white sm:text-base"
+								className="flex w-full items-center justify-center py-3 font-medium text-white hover:brightness-75 sm:text-base"
 							>
 								Home
 							</Link>
@@ -87,7 +87,7 @@ export function Header() {
 						<li className="flex w-full items-center justify-center">
 							<Link
 								href="/sobre"
-								className="flex w-full items-center justify-center py-3 font-medium text-white sm:text-base"
+								className="flex w-full items-center justify-center py-3 font-medium text-white hover:brightness-75 sm:text-base"
 							>
 								Sobre
 							</Link>
@@ -97,7 +97,7 @@ export function Header() {
 							<Link
 								href="https://wa.me/5514998695347"
 								target="_blank"
-								className="flex w-full items-center justify-center py-3 font-medium text-white sm:text-base"
+								className="flex w-full items-center justify-center py-3 font-medium text-white hover:brightness-75 sm:text-base"
 							>
 								Contato
 							</Link>
