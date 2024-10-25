@@ -5,7 +5,25 @@ import { NotFoundIcon } from "./icons/NotFoundIcon";
 
 export const metadata: Metadata = {
 	title: "Página Não Encontrada - Naturella",
-	description: "Página não encontrada.",
+	description: "Página não encontrada",
+	openGraph: {
+		title: "Página Não Encontrada - Naturella",
+		description: "Página não encontrada",
+		url: "https://naturellastudio.vercel.app/",
+		siteName: "Naturella",
+		images: [
+			{
+				url: "https://naturellastudio.vercel.app/openGraph.png",
+				width: 1200,
+				height: 630,
+				alt: "Logo do Naturella",
+			},
+		],
+		locale: "pt_BR",
+		type: "website",
+		countryName: "Brasil",
+		phoneNumbers: ["+55 14 99869-5347"],
+	},
 };
 
 export default function NotFound() {
