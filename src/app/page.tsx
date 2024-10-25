@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Home - Naturella",
 		description: "Página principal da empresa.",
-		url: "https://naturella.vercel.app/",
+		url: "https://naturellastudio.vercel.app/",
 		siteName: "Naturella",
 		images: [
 			{
-				url: "./img/openGraph.png",
+				url: "https://naturellastudio.vercel.app/openGraph.png",
 				width: 1200,
 				height: 630,
 				alt: "Naturella",
