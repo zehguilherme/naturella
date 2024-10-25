@@ -20,7 +20,7 @@ export default function Home() {
 			<Header />
 
 			<main>
-				<section className="flex h-[calc(100vh-100px)] items-center justify-center bg-[url('./img/banner.jpg')] bg-cover p-6">
+				<section className="flex h-[calc(100vh-100px)] items-center justify-center bg-[url('./img/banner.jpg')] bg-cover p-6 sm:p-12">
 					<div className="w-full max-w-[1440px] sm:flex sm:justify-end">
 						<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px] sm:max-w-[643px] sm:gap-[46px]">
 							<div className="flex flex-col gap-[17px]">
@@ -45,7 +45,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-8 p-6 sm:gap-[62px] sm:px-[54px] sm:py-12">
+				<section className="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-8 p-6 sm:gap-[62px] sm:p-12">
 					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize sm:text-4xl">
 						Explore nossas categorias
 					</h2>
@@ -71,7 +71,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-8 p-6">
+				<section className="mx-auto flex max-w-[1440px] flex-col items-center justify-center gap-8 p-6 sm:p-12">
 					<h2 className="text-center font-bold text-2xl text-gray-gray2 capitalize sm:text-4xl">
 						Nossos produtos
 					</h2>
