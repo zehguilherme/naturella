@@ -20,7 +20,7 @@ export function Footer() {
 							<li>
 								<Link
 									href="/"
-									className="font-medium text-base-sm text-white lg:text-base"
+									className="font-medium text-base-sm text-white hover:brightness-75 active:brightness-75 lg:text-base"
 								>
 									Home
 								</Link>
@@ -29,7 +29,7 @@ export function Footer() {
 							<li>
 								<Link
 									href="/sobre"
-									className="font-medium text-base-sm text-white lg:text-base"
+									className="font-medium text-base-sm text-white hover:brightness-75 active:brightness-75 lg:text-base"
 								>
 									Sobre
 								</Link>
@@ -39,7 +39,7 @@ export function Footer() {
 								<Link
 									href="https://wa.me/5514998695347"
 									target="_blank"
-									className="font-medium text-base-sm text-white lg:text-base"
+									className="font-medium text-base-sm text-white hover:brightness-75 active:brightness-75 lg:text-base"
 								>
 									Contato
 								</Link>
