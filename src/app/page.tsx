@@ -12,6 +12,24 @@ import parts from "./img/parts.png";
 export const metadata: Metadata = {
 	title: "Home - Naturella",
 	description: "Página principal da empresa.",
+	openGraph: {
+		title: "Home - Naturella",
+		description: "Página principal da empresa.",
+		url: "https://naturella.vercel.app/",
+		siteName: "Naturella",
+		images: [
+			{
+				url: "./img/openGraph.png",
+				width: 1200,
+				height: 630,
+				alt: "Naturella",
+			},
+		],
+		locale: "pt_BR",
+		type: "website",
+		countryName: "Brasil",
+		phoneNumbers: ["+55 14 99869-5347"],
+	},
 };
 
 export default function Home() {
