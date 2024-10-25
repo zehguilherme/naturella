@@ -9,6 +9,24 @@ import profile from "../img/profile.png";
 export const metadata: Metadata = {
 	title: "Sobre - Naturella",
 	description: "Informações gerais sobre a empresa",
+	openGraph: {
+		title: "Sobre - Naturella",
+		description: "Informações gerais sobre a empresa",
+		url: "https://naturellastudio.vercel.app/",
+		siteName: "Naturella",
+		images: [
+			{
+				url: "https://naturellastudio.vercel.app/openGraph.png",
+				width: 1200,
+				height: 630,
+				alt: "Logo do Naturella",
+			},
+		],
+		locale: "pt_BR",
+		type: "website",
+		countryName: "Brasil",
+		phoneNumbers: ["+55 14 99869-5347"],
+	},
 };
 
 export default function About() {
