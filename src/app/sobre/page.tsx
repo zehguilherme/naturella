@@ -8,7 +8,7 @@ import profile from "../img/profile.png";
 
 export const metadata: Metadata = {
 	title: "Sobre - Naturella",
-	description: "Informações gerais sobre a empresa.",
+	description: "Informações gerais sobre a empresa",
 };
 
 export default function About() {
