@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export function Footer() {
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<footer className="bg-green p-6 lg:p-12">
 			<div className="mx-auto flex max-w-[1440px] flex-col gap-7 lg:gap-12">
@@ -52,7 +54,7 @@ export function Footer() {
 					<hr className="border-white border-t-[1px]" />
 
 					<p className="font-normal text-base-sm text-white lg:text-base">
-						&copy; 2024 Naturella. Todos os direitos reservados
+						&copy; {currentYear} Naturella. Todos os direitos reservados
 					</p>
 				</div>
 			</div>
