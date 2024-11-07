@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 import { Header } from "./components/Header";
 import { Category } from "./components/Category";
@@ -12,6 +12,10 @@ import parts from "./img/parts.png";
 export const metadata: Metadata = {
 	title: "Naturella",
 	description: "Peças de Decoração Artesanais",
+};
+
+export const viewport: Viewport = {
+	themeColor: "#41521F",
 };
 
 export default function Home() {
