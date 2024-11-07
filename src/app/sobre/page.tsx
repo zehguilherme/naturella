@@ -9,6 +9,10 @@ import profile from "../img/profile.png";
 export const metadata: Metadata = {
 	title: "Sobre - Naturella",
 	description: "Informações gerais sobre a Naturella",
+	openGraph: {
+		title: "Sobre - Naturella",
+		description: "Informações gerais sobre a Naturella",
+	},
 };
 
 export default function About() {

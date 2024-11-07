@@ -6,6 +6,10 @@ import { NotFoundIcon } from "./icons/NotFoundIcon";
 export const metadata: Metadata = {
 	title: "Página Não Encontrada - Naturella",
 	description: "Página não encontrada",
+	openGraph: {
+		title: "Página Não Encontrada - Naturella",
+		description: "Página não encontrada",
+	},
 };
 
 export default function NotFound() {
