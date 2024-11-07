@@ -20,7 +20,7 @@ export default function Home() {
 			<Header />
 
 			<main>
-				<section className="flex h-[calc(100vh-100px)] items-center justify-center bg-[url('./img/banner.jpg')] bg-cover p-6 sm:p-12">
+				<section className="flex h-[calc(100dvh-100px)] items-center justify-center bg-[url('./img/banner.jpg')] bg-cover p-6 sm:p-12">
 					<div className="w-full max-w-[1440px] sm:flex sm:justify-end">
 						<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px] sm:max-w-[643px] sm:gap-[46px]">
 							<div className="flex flex-col gap-[17px]">
