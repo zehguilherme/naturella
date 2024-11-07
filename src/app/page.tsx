@@ -12,6 +12,10 @@ import parts from "./img/parts.png";
 export const metadata: Metadata = {
 	title: "Naturella",
 	description: "Peças de Decoração Artesanais",
+	openGraph: {
+		title: "Naturella",
+		description: "Peças de Decoração Artesanais",
+	},
 };
 
 export const viewport: Viewport = {
