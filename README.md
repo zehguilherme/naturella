@@ -23,6 +23,7 @@ Esta é uma loja especializada na confecção de peças artesanais de concreto!
 - [Google Fonts](https://fonts.google.com/) - Biblioteca contendo diversas fontes
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilização
 - [Lucide](https://lucide.dev/) - Biblioteca de ícones
+- [Framer Motion](https://www.framer.com/motion/) - Biblioteca de animações
 
 #### Layout
 
