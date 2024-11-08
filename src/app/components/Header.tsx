@@ -17,9 +17,11 @@ export function Header() {
 		<header className="bg-green px-6 sm:px-12">
 			<div className="mx-auto max-w-[1440px] sm:flex sm:items-center sm:justify-between">
 				<div className="flex items-center justify-between">
-					<Link href="/">
-						<Logo />
-					</Link>
+					<h1>
+						<Link href="/">
+							<Logo />
+						</Link>
+					</h1>
 
 					<button
 						className="p-2 sm:hidden"
