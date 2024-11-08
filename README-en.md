@@ -23,6 +23,7 @@ This is a store specialized in making handmade concrete pieces!
 - [Google Fonts](https://fonts.google.com/) - Library containing various fonts
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework for styling
 - [Lucide](https://lucide.dev/) - Icon library
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
 
 #### Layout
 
