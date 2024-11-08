@@ -32,9 +32,9 @@ export default function Home() {
 					<div className="w-full max-w-[1440px] sm:flex sm:justify-end">
 						<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px] sm:max-w-[643px] sm:gap-[46px]">
 							<div className="flex flex-col gap-[17px]">
-								<h1 className="font-bold text-3xl text-green capitalize sm:text-5xl">
+								<h2 className="font-bold text-3xl text-green capitalize sm:text-5xl">
 									Transforme seu espaço agora
-								</h1>
+								</h2>
 
 								<p className="font-medium text-base-sm text-black sm:text-lg">
 									Descubra peças únicas que combinam a solidez do concreto com a
