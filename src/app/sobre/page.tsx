@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Image from "next/image";
 
 import { Header } from "../components/Header";
@@ -13,6 +13,10 @@ export const metadata: Metadata = {
 		title: "Sobre - Naturella",
 		description: "Informações gerais sobre a Naturella",
 	},
+};
+
+export const viewport: Viewport = {
+	themeColor: "#41521F",
 };
 
 export default function About() {
