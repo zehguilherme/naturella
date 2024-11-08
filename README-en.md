@@ -12,13 +12,14 @@
 
 ## 💬 Description
 
-This is the Naturella store website!
+This is a store specialized in making handmade concrete pieces!
 
 ## 🚀 Technologies
 
 ### Front-end
 
 - [NextJS](https://nextjs.org/) - Framework (based on the [ReactJS](https://react.dev/) library) used to build interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Set of packages that add static typing to the JavaScript language
 - [Google Fonts](https://fonts.google.com/) - Library containing various fonts
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework for styling
 - [Lucide](https://lucide.dev/) - Icon library
