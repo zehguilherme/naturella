@@ -12,13 +12,14 @@
 
 ## 💬 Descrição
 
-Este é o site da loja Naturella!
+Esta é uma loja especializada na confecção de peças artesanais de concreto!
 
 ## 🚀 Tecnologias
 
 ### Front-end
 
 - [NextJS](https://nextjs.org/) - Framework (baseado na biblioteca [ReactJS](https://react.dev/)) usado para construção de interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Conjunto de pacotes que adiciona tipagem estática à linguagem JavaScript
 - [Google Fonts](https://fonts.google.com/) - Biblioteca contendo diversas fontes
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilização
 - [Lucide](https://lucide.dev/) - Biblioteca de ícones
