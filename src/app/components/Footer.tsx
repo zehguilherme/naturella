@@ -1,4 +1,5 @@
 import Link from "next/link";
+import * as motion from "framer-motion/client";
 
 export function Footer() {
 	const currentYear = new Date().getFullYear();
@@ -19,25 +20,34 @@ export function Footer() {
 
 					<nav className="w-full lg:w-auto">
 						<ul className="flex items-center justify-between lg:gap-36">
-							<li>
+							<motion.li
+								whileHover={{ scale: 1.05 }}
+								whileTap={{ scale: 0.95 }}
+							>
 								<Link
 									href="/"
 									className="font-medium text-base-sm text-white hover:brightness-75 active:brightness-75 lg:text-base"
 								>
 									Home
 								</Link>
-							</li>
+							</motion.li>
 
-							<li>
+							<motion.li
+								whileHover={{ scale: 1.05 }}
+								whileTap={{ scale: 0.95 }}
+							>
 								<Link
 									href="/sobre"
 									className="font-medium text-base-sm text-white hover:brightness-75 active:brightness-75 lg:text-base"
 								>
 									Sobre
 								</Link>
-							</li>
+							</motion.li>
 
-							<li>
+							<motion.li
+								whileHover={{ scale: 1.05 }}
+								whileTap={{ scale: 0.95 }}
+							>
 								<Link
 									href="https://wa.me/5514998695347"
 									target="_blank"
@@ -45,7 +55,7 @@ export function Footer() {
 								>
 									Contato
 								</Link>
-							</li>
+							</motion.li>
 						</ul>
 					</nav>
 				</div>
