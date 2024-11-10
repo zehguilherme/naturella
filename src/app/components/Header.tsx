@@ -83,7 +83,7 @@ export function Header() {
 							{menuIsOpen ? (
 								<motion.div
 									key="close"
-									initial={{ rotate: -90, opacity: 0 }}
+									initial={{ opacity: 1 }}
 									animate={{ rotate: 0, opacity: 1 }}
 									exit={{ rotate: 90, opacity: 0 }}
 									transition={{ duration: 0.2 }}
@@ -93,7 +93,7 @@ export function Header() {
 							) : (
 								<motion.div
 									key="menu"
-									initial={{ rotate: 90, opacity: 0 }}
+									initial={{ opacity: 1 }}
 									animate={{ rotate: 0, opacity: 1 }}
 									exit={{ rotate: -90, opacity: 0 }}
 									transition={{ duration: 0.2 }}
