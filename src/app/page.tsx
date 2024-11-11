@@ -44,7 +44,8 @@ export default function Home() {
 							</div>
 
 							<Link
-								href="#"
+								href="https://www.elo7.com.br/naturellastudio"
+								target="_blank"
 								className="bg-green px-10 py-[15px] text-center font-bold text-sm text-white uppercase sm:max-w-[389px] sm:px-[72px] sm:py-[25px] sm:text-base"
 							>
 								Quero decorar minha casa
