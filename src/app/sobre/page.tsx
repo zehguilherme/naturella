@@ -31,29 +31,35 @@ export default function About() {
 						alt="Imagem de uma mulher negra de cabelos cacheados, com uma camisa branca e que está de braços cruzados"
 						priority
 						width={350}
+						placeholder="blur"
 					/>
 
 					<div className="flex flex-col gap-5">
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Bem-vindo ao nosso espaço dedicado à arte e funcionalidade do
-							concreto! Nosso trabalho é transformar um dos materiais mais
-							duráveis e versáteis do mundo em peças únicas que aliam design,
-							resistência e praticidade.
+							Sou Amanda, arquiteta e empreendedora.
 						</p>
 
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Cada peça é cuidadosamente elaborada, desde o planejamento até a
-							finalização, garantindo um alto padrão de qualidade para quem
-							valoriza tanto a estética quanto a durabilidade. Oferecemos desde
-							itens decorativos até peças funcionais, perfeitas para projetos de
-							arquitetura, design de interiores ou paisagismo.
+							Minha missão: levar um pouquinho de amor pra dentro da sua casa,
+							através do meu trabalho.
 						</p>
 
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Nosso compromisso é entregar soluções criativas e robustas,
-							ajudando você a trazer mais estilo e modernidade aos seus
-							ambientes. Explore nossas coleções e descubra como o concreto pode
-							transformar qualquer espaço com elegância e resistência.
+							Tenho grande variedade em itens de concreto com alta qualidade,
+							linhas com peças diferenciadas que podem ser usadas em vários
+							ambientes.
+						</p>
+
+						<p className="font-medium text-base-sm text-black lg:text-lg">
+							Cada item é preparado cuidadosamente de forma manual, ou seja, o
+							processo de fabricação faz com que cada peça seja única.
+						</p>
+
+						<p className="font-medium text-base-sm text-black lg:text-lg">
+							Meu intuito é que você consiga criar uma identificação com as
+							peças e possa decorar aquele cantinho especial do seu ambiente,
+							fazendo com que ele fique leve e cheio de amor e carinho que cada
+							item carrega consigo.
 						</p>
 					</div>
 				</div>
