@@ -6,7 +6,9 @@ import { Category } from "./components/Category";
 import { Product } from "./components/Product";
 import { Footer } from "./components/Footer";
 
-import vases from "./img/vases.png";
+import tray from "./img/tray.jpg";
+import vasesSets from "./img/vases_sets.jpg";
+import scented_candle from "./img/scented_candle.jpg";
 import parts from "./img/parts.png";
 
 export const metadata: Metadata = {
@@ -37,8 +39,7 @@ export default function Home() {
 								</h2>
 
 								<p className="font-medium text-base-sm text-black sm:text-lg">
-									Descubra peças únicas que combinam a solidez do concreto com a
-									delicadeza do macramê, criadas para transformar qualquer
+									Descubra peças únicas criadas para transformar qualquer
 									ambiente com personalidade e sofisticação.
 								</p>
 							</div>
@@ -61,21 +62,21 @@ export default function Home() {
 
 					<div className="flex flex-col gap-5 lg:flex-row lg:gap-8">
 						<Category
-							imageSrc={vases}
-							imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
-							categoryName="Vasos"
+							imageSrc={vasesSets}
+							imageAlt="Imagem de 2 vasos de concreto brancos em cima de uma bandeja de concreto branca. O vaso maior possui uma planta dentro e outro menor contendo uma tampa"
+							categoryName="Vasos e Conjuntos"
 						/>
 
 						<Category
-							imageSrc={vases}
-							imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
-							categoryName="Vasos"
+							imageSrc={tray}
+							imageAlt="Imagem de uma bandeja de concreto branca com uma borda estilizada"
+							categoryName="Bandejas"
 						/>
 
 						<Category
-							imageSrc={vases}
-							imageAlt="Imagem de 2 vasos de concreto contendo as cores rosa claro, dourado e cinza, além de possuir dentro de cada um deles algumas plantas"
-							categoryName="Vasos"
+							imageSrc={scented_candle}
+							imageAlt="Imagem de uma vela aromática branca acesa juntamente de uma planta pequena ao lado"
+							categoryName="Velas Aromáticas"
 						/>
 					</div>
 				</section>
