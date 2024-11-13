@@ -47,7 +47,7 @@ export default function Home() {
 							<Link
 								href="https://www.elo7.com.br/naturellastudio"
 								target="_blank"
-								className="bg-green px-10 py-[15px] text-center font-bold text-sm text-white uppercase sm:max-w-[389px] sm:px-[72px] sm:py-[25px] sm:text-base"
+								className="bg-green px-10 py-[15px] text-center font-bold text-sm text-white uppercase transition-all duration-300 ease-in-out hover:scale-105 hover:bg-[#2a3614] active:scale-95 active:bg-[#2a3614] sm:max-w-[389px] sm:px-[72px] sm:py-[25px] sm:text-base"
 							>
 								Quero decorar minha casa
 							</Link>
