@@ -165,37 +165,25 @@ export function Header() {
 
 				<nav className="hidden sm:block" aria-label="navbar-desktop">
 					<ul className="sm:flex sm:flex-row sm:gap-[76px]">
-						<motion.li
-							className="flex w-full items-center justify-center"
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-						>
+						<li className="flex w-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-105 active:scale-95">
 							<Link
 								href="/"
 								className="flex w-full items-center justify-center py-3 font-medium text-white hover:brightness-75 sm:text-base"
 							>
 								Home
 							</Link>
-						</motion.li>
+						</li>
 
-						<motion.li
-							className="flex w-full items-center justify-center"
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-						>
+						<li className="flex w-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-105 active:scale-95">
 							<Link
 								href="/sobre"
 								className="flex w-full items-center justify-center py-3 font-medium text-white hover:brightness-75 sm:text-base"
 							>
 								Sobre
 							</Link>
-						</motion.li>
+						</li>
 
-						<motion.li
-							className="flex w-full items-center justify-center"
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-						>
+						<li className="flex w-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-105 active:scale-95">
 							<Link
 								href="https://wa.me/5514998695347"
 								target="_blank"
@@ -203,7 +191,7 @@ export function Header() {
 							>
 								Contato
 							</Link>
-						</motion.li>
+						</li>
 					</ul>
 				</nav>
 			</div>
