@@ -60,7 +60,7 @@ export default function Home() {
 						Explore nossas categorias
 					</h2>
 
-					<div className="flex flex-col gap-5 lg:flex-row lg:gap-8">
+					<div className="flex flex-col gap-8 lg:flex-row">
 						<Category
 							imageSrc={vasesSets}
 							imageAlt="Imagem de 2 vasos de concreto brancos em cima de uma bandeja de concreto branca. O vaso maior possui uma planta dentro e outro menor contendo uma tampa"
