@@ -12,7 +12,7 @@
 
 ## 💬 Description
 
-This is a store specialized in making handmade concrete pieces!
+This is a store specialized in making handmade decorative pieces!
 
 ## 🚀 Technologies
 

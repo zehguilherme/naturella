@@ -12,7 +12,7 @@
 
 ## 💬 Descrição
 
-Esta é uma loja especializada na confecção de peças artesanais de concreto!
+Esta é uma loja especializada na confecção de peças de decoração artesanais!
 
 ## 🚀 Tecnologias
 
