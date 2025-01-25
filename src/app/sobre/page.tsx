@@ -24,7 +24,7 @@ export default function About() {
 		<>
 			<Header />
 
-			<main className="mx-auto h-full max-w-[1440px] p-6 lg:p-12">
+			<main className="mx-auto flex max-w-[1440px] flex-1 items-center p-6 lg:p-12">
 				<div className="mx-auto flex max-w-[840px] flex-col items-center justify-center gap-6 lg:flex-row lg:items-start lg:gap-8">
 					<Image
 						src={profile}
