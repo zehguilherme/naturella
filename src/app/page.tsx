@@ -96,36 +96,42 @@ export default function Home() {
 					<div className="flex flex-col items-center justify-center gap-4 sm:grid sm:grid-cols-2 sm:items-start sm:gap-8 md:grid-cols-3 lg:grid-cols-4">
 						<Product
 							imageSrc={macrame_panel}
+							imageAlt="Imagem de um painel de macramê branco, verde musgo e verde escuro"
 							productName="Painel Macramê"
 							description="Painel Minimalista - Branco, Verde Musgo e Verde Escuro"
 						/>
 
 						<Product
 							imageSrc={door_weight}
+							imageAlt="Imagem de um peso de porta de concreto com uma faixa preta e outra dourada"
 							productName="Peso de Porta Concreto Faixa Preta e Dourada"
 							description="Peso de porta faixa preta e dourada"
 						/>
 
 						<Product
 							imageSrc={white_oval_tray}
+							imageAlt="Imagem de uma bandeja oval branca em concreto"
 							productName="Bandeja Oval"
 							description="Bandeja oval em concreto"
 						/>
 
 						<Product
 							imageSrc={pink_round_tray}
+							imageAlt="Imagem de uma bandeja redonda rosa em concreto"
 							productName="Bandeja Redonda Tabata - Rosa"
 							description="Bandeja em cimento branco com cor"
 						/>
 
 						<Product
 							imageSrc={white_round_tray}
+							imageAlt="Imagem de uma bandeja redonda branca em concreto com pedras pretas"
 							productName="Bandeja Redonda Tabata - Granilite"
 							description="Bandeja decorativa em concreto branco com pedras pretas"
 						/>
 
 						<Product
 							imageSrc={three_vases}
+							imageAlt="Imagem de 3 vasos de concreto coloridos nas cores rosa, preto e branco"
 							productName="Vaso Lily - Diversas Cores"
 							description="Vaso feito de concreto colorido"
 						/>
@@ -133,23 +139,27 @@ export default function Home() {
 						<Product
 							imageSrc={sheet_tray}
 							productName="Bandeja Costela de Adão"
+							imageAlt="Imagem de uma bandeja de concreto no formato de uma folha com pintura marmorizada verde e branca"
 							description="Bandeja de concreto com pintura marmorizada verde e branco"
 						/>
 
 						<Product
 							imageSrc={mini_vases}
 							productName="Kit Vasinhos P&b"
+							imageAlt="Imagem de 3 vasinhos de cimento com uma faixa na cor preta"
 							description="Kit de 3 vasinhos de cimento com pintura preta. Ideal para colocar plantas e decorar como quiser!"
 						/>
 
 						<Product
 							imageSrc={vasesSets}
 							productName="Conjunto White"
+							imageAlt="Imagem de um conjunto de vasos de concreto branco. O conjunto contém uma bandeja redonda em granilite, um vasinho redondo com tampa e um vaso alto redondo"
 							description="Conjunto feito em concreto branco, contendo: ATENÇÃO: PLANTA NÃO INCLUSA. 1 bandeja redonda em granilite. 1 vasinho com tampa. 1 vaso alto"
 						/>
 
 						<Product
 							imageSrc={rose_macrame}
+							imageAlt="Imagem de um cachepô com macramê na cor rosê"
 							productName="Cachepô com Macramê Rosê"
 							description="Suporte de plantas em macrame. Madeira tratada."
 						/>
