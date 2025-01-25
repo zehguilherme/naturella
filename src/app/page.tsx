@@ -6,10 +6,17 @@ import { Category } from "./components/Category";
 import { Product } from "./components/Product";
 import { Footer } from "./components/Footer";
 
-import tray from "./img/tray.jpg";
+import white_round_tray from "./img/white_round_tray.jpg";
 import vasesSets from "./img/vases_sets.jpg";
 import scented_candle from "./img/scented_candle.jpg";
-import parts from "./img/parts.png";
+import sheet_tray from "./img/sheet_tray.png";
+import macrame_panel from "./img/macrame_panel.png";
+import door_weight from "./img/door_weight.png";
+import white_oval_tray from "./img/white_oval_tray.png";
+import pink_round_tray from "./img/pink_round_tray.png";
+import three_vases from "./img/three_vases.png";
+import mini_vases from "./img/mini_vases.png";
+import rose_macrame from "./img/rose_macrame.png";
 
 export const metadata: Metadata = {
 	title: "Naturella",
@@ -68,7 +75,7 @@ export default function Home() {
 						/>
 
 						<Category
-							imageSrc={tray}
+							imageSrc={white_round_tray}
 							imageAlt="Imagem de uma bandeja de concreto branca com uma borda estilizada"
 							categoryName="Bandejas"
 						/>
@@ -86,61 +93,65 @@ export default function Home() {
 						Nossos produtos
 					</h2>
 
-					<div className="flex flex-col items-center justify-center gap-4 sm:grid sm:grid-cols-2 sm:gap-8 md:grid-cols-3 lg:grid-cols-4">
+					<div className="flex flex-col items-center justify-center gap-4 sm:grid sm:grid-cols-2 sm:items-start sm:gap-8 md:grid-cols-3 lg:grid-cols-4">
 						<Product
-							imageSrc={parts}
-							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
-							productName="Vaso"
-							productDescription="Lorem ipsum dolor sit amet."
+							imageSrc={macrame_panel}
+							productName="Painel Macramê"
+							description="Painel Minimalista - Branco, Verde Musgo e Verde Escuro"
 						/>
 
 						<Product
-							imageSrc={parts}
-							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
-							productName="Vaso"
-							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+							imageSrc={door_weight}
+							productName="Peso de Porta Concreto Faixa Preta e Dourada"
+							description="Peso de porta faixa preta e dourada"
 						/>
 
 						<Product
-							imageSrc={parts}
-							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
-							productName="Vaso"
-							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut odio
-					commodo, maximus orci nec, finibus lacus. Morbi at sodales ligula.
-					Mauris dignissim tempus justo eu accumsan. Aliquam vel sodales magna,
-					nec rutrum enim. Cras pretium finibus arcu, a semper risus luctus at.
-					Maecenas iaculis quis arcu et condimentum. Vestibulum sit amet risus
-					vitae dui mattis tristique. Sed feugiat mattis enim ac pharetra. Etiam
-					vitae quam egestas, aliquet justo lacinia, luctus diam. Duis tempor
-					ornare eros et tempor."
+							imageSrc={white_oval_tray}
+							productName="Bandeja Oval"
+							description="Bandeja oval em concreto"
 						/>
 
 						<Product
-							imageSrc={parts}
-							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
-							productName="Vaso"
-							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut odio
-					commodo, maximus orci nec, finibus lacus. Morbi at sodales ligula.
-					Mauris dignissim tempus justo eu accumsan. Aliquam vel sodales magna,
-					nec rutrum enim. Cras pretium finibus arcu, a semper risus luctus at.
-					Maecenas iaculis quis arcu et condimentum. Vestibulum sit amet risus
-					vitae dui mattis tristique. Sed feugiat mattis enim ac pharetra. Etiam
-					vitae quam egestas, aliquet justo lacinia, luctus diam. Duis tempor
-					ornare eros et tempor."
+							imageSrc={pink_round_tray}
+							productName="Bandeja Redonda Tabata - Rosa"
+							description="Bandeja em cimento branco com cor"
 						/>
 
 						<Product
-							imageSrc={parts}
-							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
-							productName="Vaso"
-							productDescription="Lorem ipsum dolor sit amet."
+							imageSrc={white_round_tray}
+							productName="Bandeja Redonda Tabata - Granilite"
+							description="Bandeja decorativa em concreto branco com pedras pretas"
 						/>
 
 						<Product
-							imageSrc={parts}
-							imageAlt="3 peças de concreto (porta sabonete líquido, vaso de plantas e uma bandeja) coloridas com uma mistura de várias cores"
-							productName="Vaso"
-							productDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+							imageSrc={three_vases}
+							productName="Vaso Lily - Diversas Cores"
+							description="Vaso feito de concreto colorido"
+						/>
+
+						<Product
+							imageSrc={sheet_tray}
+							productName="Bandeja Costela de Adão"
+							description="Bandeja de concreto com pintura marmorizada verde e branco"
+						/>
+
+						<Product
+							imageSrc={mini_vases}
+							productName="Kit Vasinhos P&b"
+							description="Kit de 3 vasinhos de cimento com pintura preta. Ideal para colocar plantas e decorar como quiser!"
+						/>
+
+						<Product
+							imageSrc={vasesSets}
+							productName="Conjunto White"
+							description="Conjunto feito em concreto branco, contendo: ATENÇÃO: PLANTA NÃO INCLUSA. 1 bandeja redonda em granilite. 1 vasinho com tampa. 1 vaso alto"
+						/>
+
+						<Product
+							imageSrc={rose_macrame}
+							productName="Cachepô com Macramê Rosê"
+							description="Suporte de plantas em macrame. Madeira tratada."
 						/>
 					</div>
 				</section>
