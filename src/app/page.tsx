@@ -154,7 +154,7 @@ export default function Home() {
 							imageSrc={vasesSets}
 							productName="Conjunto White"
 							imageAlt="Imagem de um conjunto de vasos de concreto branco. O conjunto contém uma bandeja redonda em granilite, um vasinho redondo com tampa e um vaso alto redondo"
-							description="Conjunto feito em concreto branco, contendo: ATENÇÃO: PLANTA NÃO INCLUSA. 1 bandeja redonda em granilite. 1 vasinho com tampa. 1 vaso alto"
+							description="Conjunto feito em concreto branco, contendo: 1 bandeja redonda em granilite, 1 vasinho com tampa e 1 vaso alto. (Planta não inclusa)"
 						/>
 
 						<Product
