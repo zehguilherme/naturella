@@ -99,6 +99,7 @@ export default function Home() {
 							imageAlt="Imagem de um painel de macramê branco, verde musgo e verde escuro"
 							productName="Painel Macramê"
 							description="Painel Minimalista - Branco, Verde Musgo e Verde Escuro"
+							url="https://www.elo7.com.br/painel-macrame/dp/1E44FC4#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -106,6 +107,7 @@ export default function Home() {
 							imageAlt="Imagem de um peso de porta de concreto com uma faixa preta e outra dourada"
 							productName="Peso de Porta Concreto Faixa Preta e Dourada"
 							description="Peso de porta faixa preta e dourada"
+							url="https://www.elo7.com.br/peso-de-porta-concreto-faixa-preta-e-dourada/dp/1CCABE3#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -113,6 +115,7 @@ export default function Home() {
 							imageAlt="Imagem de uma bandeja oval branca em concreto"
 							productName="Bandeja Oval"
 							description="Bandeja oval em concreto"
+							url="https://www.elo7.com.br/bandeja-oval/dp/1F3CE22#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -120,6 +123,7 @@ export default function Home() {
 							imageAlt="Imagem de uma bandeja redonda rosa em concreto"
 							productName="Bandeja Redonda Tabata - Rosa"
 							description="Bandeja em cimento branco com cor"
+							url="https://www.elo7.com.br/bandeja-redonda-tabata-rosa/dp/1F3CDF5#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -127,6 +131,7 @@ export default function Home() {
 							imageAlt="Imagem de uma bandeja redonda branca em concreto com pedras pretas"
 							productName="Bandeja Redonda Tabata - Granilite"
 							description="Bandeja decorativa em concreto branco com pedras pretas"
+							url="https://www.elo7.com.br/bandeja-redonda-tabata-granilite/dp/1F25403#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -134,6 +139,7 @@ export default function Home() {
 							imageAlt="Imagem de 3 vasos de concreto coloridos nas cores rosa, preto e branco"
 							productName="Vaso Lily - Diversas Cores"
 							description="Vaso feito de concreto colorido"
+							url="https://www.elo7.com.br/vaso-lily-diversas-cores/dp/1F25397#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -141,6 +147,7 @@ export default function Home() {
 							productName="Bandeja Costela de Adão"
 							imageAlt="Imagem de uma bandeja de concreto no formato de uma folha com pintura marmorizada verde e branca"
 							description="Bandeja de concreto com pintura marmorizada verde e branco"
+							url="https://www.elo7.com.br/bandeja-costela-de-adao/dp/1F253F2#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -148,6 +155,7 @@ export default function Home() {
 							productName="Kit Vasinhos P&b"
 							imageAlt="Imagem de 3 vasinhos de cimento com uma faixa na cor preta"
 							description="Kit de 3 vasinhos de cimento com pintura preta. Ideal para colocar plantas e decorar como quiser!"
+							url="https://www.elo7.com.br/kit-vasinhos-pb/dp/1DE6083#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -155,6 +163,7 @@ export default function Home() {
 							productName="Conjunto White"
 							imageAlt="Imagem de um conjunto de vasos de concreto branco. O conjunto contém uma bandeja redonda em granilite, um vasinho redondo com tampa e um vaso alto redondo"
 							description="Conjunto feito em concreto branco, contendo: 1 bandeja redonda em granilite, 1 vasinho com tampa e 1 vaso alto. (Planta não inclusa)"
+							url="https://www.elo7.com.br/conjunto-white/dp/1F25422#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
@@ -162,6 +171,7 @@ export default function Home() {
 							imageAlt="Imagem de um cachepô com macramê na cor rosê"
 							productName="Cachepô com Macramê Rosê"
 							description="Suporte de plantas em macrame. Madeira tratada."
+							url="https://www.elo7.com.br/cachepo-com-macrame-rose/dp/1E33C3F#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 					</div>
 				</section>
