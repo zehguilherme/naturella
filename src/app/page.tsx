@@ -17,6 +17,8 @@ import pink_round_tray from "./img/pink_round_tray.png";
 import three_vases from "./img/three_vases.png";
 import mini_vases from "./img/mini_vases.png";
 import rose_macrame from "./img/rose_macrame.png";
+import fluted_vase from "./img/fluted_vase.png";
+import granite_tray_vases_set from "./img/granite_tray_vases_set.png";
 
 export const metadata: Metadata = {
 	title: "Naturella",
@@ -156,6 +158,22 @@ export default function Home() {
 							imageAlt="Imagem de 3 vasinhos de cimento com uma faixa na cor preta"
 							description="Kit de 3 vasinhos de cimento com pintura preta. Ideal para colocar plantas e decorar como quiser!"
 							url="https://www.elo7.com.br/kit-vasinhos-pb/dp/1DE6083#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
+						/>
+
+						<Product
+							imageSrc={fluted_vase}
+							productName="Vaso Canelado Branco"
+							imageAlt="Imagem de um vaso de concreto branco com textura canelada vertical"
+							description="Vaso canelado fabricado em cimento branco. (Planta não inclusa)"
+							url="https://www.elo7.com.br/vaso-canelado-branco/dp/1F8A5E1#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=d&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
+						/>
+
+						<Product
+							imageSrc={granite_tray_vases_set}
+							productName="Conjunto Bandeja e Vasos em Granilite"
+							imageAlt="Imagem de um conjunto de vasos e bandeja em concreto branco com acabamento em granilite preto. O conjunto contém uma bandeja redonda e dois vasos redondos de tamanhos diferentes"
+							description="Conjunto feito em cimento branco estrutural com efeito granilite preto"
+							url="https://www.elo7.com.br/conjunto-bandeja-e-vasos-em-granilite/dp/1F8A574#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=d&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0"
 						/>
 
 						<Product
