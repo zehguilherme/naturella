@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
-import profile from "../img/profile.png";
+import profile from "../img/profile.jpg";
 
 export const metadata: Metadata = {
 	title: "Sobre - Naturella",
@@ -29,9 +29,9 @@ export default function About() {
 					<Image
 						src={profile}
 						alt="Imagem de uma mulher negra de cabelos cacheados, com uma camisa branca e que está de braços cruzados"
-						priority
-						width={350}
+						height={440}
 						placeholder="blur"
+						className="rounded"
 					/>
 
 					<div className="flex flex-col gap-5">
