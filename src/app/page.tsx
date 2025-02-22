@@ -41,7 +41,7 @@ export default function Home() {
 			<main>
 				<section className="flex h-[calc(100dvh-100px)] items-center justify-center bg-[url('./img/banner.webp')] bg-cover p-6 sm:p-12">
 					<div className="w-full max-w-[1440px] sm:flex sm:justify-end">
-						<div className="flex flex-col gap-6 rounded-[10px] bg-pink px-[39px] py-[37px] sm:max-w-[643px] sm:gap-[46px]">
+						<div className="flex flex-col gap-6 rounded-[10px] bg-yellow px-[39px] py-[37px] sm:max-w-[643px] sm:gap-[46px]">
 							<div className="flex flex-col gap-[17px]">
 								<h2 className="font-bold text-3xl text-green capitalize sm:text-5xl">
 									Transforme seu espaço agora
