@@ -6,14 +6,13 @@ import { Category } from "./components/Category";
 import { Product } from "./components/Product";
 import { Footer } from "./components/Footer";
 
-import white_round_tray from "./img/white_round_tray.jpg";
+import white_round_tray from "./img/white_round_tray.png";
 import vasesSets from "./img/vases_sets.jpg";
 import scented_candle from "./img/scented_candle.jpg";
 import sheet_tray from "./img/sheet_tray.png";
 import macrame_panel from "./img/macrame_panel.png";
 import door_weight from "./img/door_weight.png";
 import white_oval_tray from "./img/white_oval_tray.png";
-import pink_round_tray from "./img/pink_round_tray.png";
 import three_vases from "./img/three_vases.png";
 import mini_vases from "./img/mini_vases.png";
 import rose_macrame from "./img/rose_macrame.png";
@@ -63,24 +62,17 @@ export default function Home() {
 		{
 			imageSrc: white_oval_tray,
 			imageAlt: "Imagem de uma bandeja oval branca em concreto",
-			productName: "Bandeja Oval",
-			description: "Bandeja oval em concreto",
-			url: "https://www.elo7.com.br/bandeja-oval/dp/1F3CE22#...",
-		},
-		{
-			imageSrc: pink_round_tray,
-			imageAlt: "Imagem de uma bandeja redonda rosa em concreto",
-			productName: "Bandeja Redonda Tabata - Rosa",
-			description: "Bandeja em cimento branco com cor",
-			url: "https://www.elo7.com.br/bandeja-redonda-tabata-rosa/dp/1F3CDF5#...",
+			productName: "Bandeja Oval - Diversas Cores",
+			description:
+				"Bandeja marmorizada oval. Todas as peças são impermeabilizadas e podem ser feitas de diversas tonalidades. Perfeita para qualquer ambiente!",
+			url: "https://www.elo7.com.br/bandeja-oval-cores-diversas/dp/1E45002#dvbc=1&dwhc=1&dcc=0&ee7b=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&wch=0&sbc=1&ses=1&pssb=0&seb=0&dtm1=0&usb=0&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&efs=1&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&utp=0&dld=1&uje=0&carf=1&sgta=1&wpm=0&efsh=1&sed=1&sea=0&pdp=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&cscws=0&uso=o&vsbs=1&deac=0&droam=0&psews=0&set=0&accb=1&sseov=0",
 		},
 		{
 			imageSrc: white_round_tray,
-			imageAlt:
-				"Imagem de uma bandeja redonda branca em concreto com pedras pretas",
-			productName: "Bandeja Redonda Tabata - Granilite",
-			description: "Bandeja decorativa em concreto branco com pedras pretas",
-			url: "https://www.elo7.com.br/bandeja-redonda-tabata-granilite/dp/1F25403#...",
+			imageAlt: "Imagem de uma bandeja redonda rosa em concreto",
+			productName: "Bandeja Redonda Tabata - Diversas Cores",
+			description: "Bandeja em cimento branco com cor",
+			url: "https://www.elo7.com.br/bandeja-redonda-tabata-rosa/dp/1F3CDF5#...",
 		},
 		{
 			imageSrc: three_vases,
