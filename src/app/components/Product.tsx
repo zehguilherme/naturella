@@ -1,12 +1,10 @@
 import Image, { type StaticImageData } from "next/image";
-import Link from "next/link";
 
 type ProductProps = {
 	imageSrc: StaticImageData;
 	imageAlt: string;
 	productName: string;
 	description: string;
-	url: string;
 };
 
 export function Product({
@@ -14,14 +12,9 @@ export function Product({
 	imageAlt,
 	productName,
 	description,
-	url,
 }: ProductProps) {
 	return (
-		<Link
-			href={url}
-			target="_blank"
-			className="inline-block h-full transition-all hover:scale-105 active:scale-95"
-		>
+		<div className="inline-block h-full">
 			<article className="flex h-full max-w-[345px] flex-col sm:max-w-[285px]">
 				<Image
 					src={imageSrc}
@@ -39,6 +32,6 @@ export function Product({
 					</span>
 				</div>
 			</article>
-		</Link>
+		</div>
 	);
 }
