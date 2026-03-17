@@ -9,7 +9,8 @@ export function NotFoundIcon(props: SVGProps<SVGSVGElement>) {
 			{...props}
 		>
 			<title>
-				Imagem contendo o texto 404 juntamente de uma montanha ao fundo e um sol
+				Imagem contendo o texto 404 juntamente de uma montanha ao fundo
+				e um sol
 			</title>
 			<path
 				fill="#f2f2f2"

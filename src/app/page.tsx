@@ -48,7 +48,8 @@ export default function Home() {
 			imageAlt:
 				"Imagem de um painel de macramê branco, verde musgo e verde escuro",
 			productName: "Painel Macramê",
-			description: "Painel Minimalista - Branco, Verde Musgo e Verde Escuro",
+			description:
+				"Painel Minimalista - Branco, Verde Musgo e Verde Escuro",
 			url: "https://www.elo7.com.br/naturellastudio",
 		},
 		{
@@ -93,7 +94,8 @@ export default function Home() {
 		},
 		{
 			imageSrc: mini_vases,
-			imageAlt: "Imagem de 3 vasinhos de cimento com uma faixa na cor preta",
+			imageAlt:
+				"Imagem de 3 vasinhos de cimento com uma faixa na cor preta",
 			productName: "Kit Vasinhos P&b",
 			description:
 				"Kit de 3 vasinhos de cimento com pintura preta. Ideal para colocar plantas e decorar como quiser!",
@@ -148,8 +150,9 @@ export default function Home() {
 									Transforme seu espaço agora
 								</h2>
 								<p className="font-medium text-base-sm text-black sm:text-lg">
-									Descubra peças únicas criadas para transformar qualquer
-									ambiente com personalidade e sofisticação.
+									Descubra peças únicas criadas para
+									transformar qualquer ambiente com
+									personalidade e sofisticação.
 								</p>
 							</div>
 
