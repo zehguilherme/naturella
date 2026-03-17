@@ -33,7 +33,7 @@ Você pode visualizar o layout do projeto através [deste link](https://www.figm
 
 Primeiro de tudo você precisa ter `node` e `yarn` (ou `npm`) instalados em sua máquina.
 
-*Se você decidir usar o npm, não se esqueça de deletar `yarn.lock` nas pastas.*
+_Se você decidir usar o npm, não se esqueça de deletar `yarn.lock` nas pastas._
 
 Então você pode clonar o repositório.
 

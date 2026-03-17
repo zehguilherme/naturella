@@ -40,25 +40,27 @@ export default function About() {
 						</p>
 
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Minha missão: levar um pouquinho de amor pra dentro da sua casa,
-							através do meu trabalho.
+							Minha missão: levar um pouquinho de amor pra dentro
+							da sua casa, através do meu trabalho.
 						</p>
 
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Tenho grande variedade em itens de concreto com alta qualidade,
-							linhas com peças diferenciadas que podem ser usadas em vários
-							ambientes.
+							Tenho grande variedade em itens de concreto com alta
+							qualidade, linhas com peças diferenciadas que podem
+							ser usadas em vários ambientes.
 						</p>
 
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Cada item é preparado cuidadosamente de forma manual, ou seja, o
-							processo de fabricação faz com que cada peça seja única.
+							Cada item é preparado cuidadosamente de forma
+							manual, ou seja, o processo de fabricação faz com
+							que cada peça seja única.
 						</p>
 
 						<p className="font-medium text-base-sm text-black lg:text-lg">
-							Meu intuito é que você consiga criar uma identificação com as
-							peças e possa decorar aquele cantinho especial do seu ambiente,
-							fazendo com que ele fique leve e cheio de amor e carinho que cada
+							Meu intuito é que você consiga criar uma
+							identificação com as peças e possa decorar aquele
+							cantinho especial do seu ambiente, fazendo com que
+							ele fique leve e cheio de amor e carinho que cada
 							item carrega consigo.
 						</p>
 					</div>

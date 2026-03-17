@@ -10,7 +10,9 @@ export function Logo() {
 			fill="none"
 			viewBox="0 0 100 100"
 		>
-			<title>Logo com o fundo verde escuro contendo o texto Naturella</title>
+			<title>
+				Logo com o fundo verde escuro contendo o texto Naturella
+			</title>
 			<path fill="url(#pattern0_361_48)" d="M0 0H100V100H0z" />
 			<defs>
 				<pattern

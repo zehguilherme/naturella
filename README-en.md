@@ -33,7 +33,7 @@ You can view the project layout through [this link](https://www.figma.com/design
 
 First of all you need to have `node` or `yarn` (or `npm`) installed on your machine.
 
-*If you decide to use npm don't forget to delete `yarn.lock` in folders.*
+_If you decide to use npm don't forget to delete `yarn.lock` in folders._
 
 Then you can clone the repository.
 

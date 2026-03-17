@@ -54,7 +54,8 @@ export function Footer() {
 					<hr className="border-white border-t-[1px]" />
 
 					<p className="font-normal text-base-sm text-white lg:text-base">
-						&copy; {currentYear} Naturella. Todos os direitos reservados
+						&copy; {currentYear} Naturella. Todos os direitos
+						reservados
 					</p>
 				</div>
 			</div>
