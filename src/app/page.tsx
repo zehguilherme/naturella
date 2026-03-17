@@ -203,7 +203,6 @@ export default function Home() {
 								imageAlt={product.imageAlt}
 								productName={product.productName}
 								description={product.description}
-								url={product.url}
 							/>
 						))}
 					</div>
