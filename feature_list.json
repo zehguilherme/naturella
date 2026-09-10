@@ -1,0 +1,11 @@
+{
+  "project_type": "frontend",
+  "features": [
+    {"id":"ui-001","type":"ui","area":"home","category":"functional","description":"A home exibe o hero e o CTA externo para a loja Naturella.","steps":["Navegar para /","Verificar hero, título, descrição e botão principal","Clicar no CTA e verificar abertura de https://www.elo7.com.br/naturellastudio"],"passes":false},
+    {"id":"ui-002","type":"ui","area":"home","category":"content","description":"A home exibe as três categorias e os onze cards de produtos com imagens e textos acessíveis.","steps":["Navegar para /","Verificar as três categorias","Verificar onze produtos, imagens, nomes, descrições e alt text"],"passes":false},
+    {"id":"ui-003","type":"ui","area":"navigation","category":"responsive","description":"Header desktop e menu mobile navegam para Home, Sobre e Contato.","steps":["Abrir / em viewport desktop e verificar os três links","Abrir / em viewport móvel e alternar o menu hambúrguer","Verificar Home, Sobre e o link externo de Contato"],"passes":false},
+    {"id":"ui-004","type":"ui","area":"sobre","category":"content","description":"A rota /sobre apresenta a imagem de perfil e o conteúdo institucional responsivo.","steps":["Navegar para /sobre","Verificar imagem com alt text e texto institucional","Verificar layout em viewport móvel e desktop"],"passes":false},
+    {"id":"ui-005","type":"ui","area":"footer","category":"navigation","description":"Footer exibe marca, localização, ano corrente, créditos e links de navegação e redes sociais.","steps":["Abrir / e rolar até o footer","Verificar Naturella, Bauru, São Paulo e ano corrente","Verificar links Home, Sobre, Contato, portfólio, GitHub, LinkedIn e e-mail","Verificar créditos e navegação por teclado nos quatro links sociais"],"passes":true},
+    {"id":"ui-006","type":"ui","area":"errors","category":"functional","description":"Rotas inexistentes exibem a página 404 e permitem retornar à home.","steps":["Navegar para uma rota inexistente","Verificar título, ilustração e mensagem de página não encontrada","Clicar em Voltar para a Home e verificar retorno para /"],"passes":false}
+  ]
+}
